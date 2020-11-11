@@ -1,0 +1,346 @@
+/* 
+    Document   : Newstyle.css
+    Created on : 11-Oct-2020, 10:14:53 AM
+    Author     : Maycon Morais
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+h1, h2, h3, h4, h5, h6,
+body, div, p{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Muli', sans-serif;
+}
+.col-md-3{
+    padding: 8px;
+    margin: 0px;
+    border: 0px;
+}
+
+#wrapper{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    /* border: 1px solid #000000; */
+}
+/* make a line to divide header section */
+header{
+    margin: 0px;
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid #000000;
+}
+
+/* put img and text side-side */
+header img{
+    float:left;
+}
+/* align header text in the right side */
+header h1{
+    margin: 5px;
+    text-align: right;
+    margin-bottom: 5px;
+}
+/* text below header text */
+header h2{
+    text-align: right;
+    float: right;
+}
+
+footer p{
+    text-align:center;
+    font-size: 10pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Style for cart page*/
+img {
+    max-width: 100%;
+    height: auto;
+    /*background: lightblue;
+    background: radial-gradient(white 30%, lightblue 70%);*/
+}
+
+.img-fluid{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 75px;
+    padding: 0%;
+
+}
+
+.img-cart{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    padding: 1px;
+    align-items: flex-end;
+}
+
+.img-single-prod{
+    width: 200px;
+    height: 180px;
+}
+
+#cart_count {
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.shopping-cart {
+    padding: 3% 0;
+}
+
+.cart-items+.cart-items {
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
+/* Input text - no border */
+input[type=text] select{
+  transition: width 0.4s ease-in-out;
+  padding: 12px;
+  border-radius: 9px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.form-control{
+    margin: 10px;
+}
+
+#sides{
+    margin:0;
+}
+
+#left{
+    float:left;
+    width:12%;
+    overflow:hidden;
+    min-height: 100vh;
+}
+
+#left .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  #left .list-group {
+    width: 15rem;
+  }
+
+#right{
+    float:left;
+    width:88%;
+    overflow:hidden;
+} 
+
+.add-bar-button{
+    text-align: right;
+    margin-right: 250px ;
+}
+
+/* Style for Registrant form */
+.reghead{
+    background: rgb(209, 202, 202);
+    align-content: center;
+    height: 70px;
+    width:50%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius:10px;
+}
+.regi-form{
+    padding-bottom: 50px;
+    align-self: center;
+
+}
+.regi-form input:invalid{
+    color:rgb(234, 0, 0);
+}
+.regi-form input{
+    border-left: 2px solid #aaa;
+    border-bottom: 2px solid #aaa;
+    border-top: none!important;
+    border-right: none;
+    height: 40px;
+    color: #000;
+    padding: 20px;
+    width: 100%;
+    outline: none;
+    border-radius:20px; 
+    margin:20px 0px 20px 0px;
+}
+.regi-formadmin input
+{
+    border-left: 2px solid #aaa;
+    border-bottom: 2px solid #aaa;
+    border-top: none!important;
+    border-right: none;
+    height: 40px;
+    color: #000;
+    padding: 20px;
+    width: 100%;
+    outline: none;
+    border-radius:10px; 
+    margin:20px 0px 20px 0px;
+}
+.selectbox{
+    width:100%;
+    border-left: 2px solid rgb(114, 108, 108) !important;
+    border-bottom: 2px solid rgb(148, 141, 141)!important;
+    border: none;  
+    background: #fff;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;    
+}
+.selectbox:focus{
+    outline:none;
+    border-left: 2px solid #555;
+    border-bottom: 2px solid #555;
+    
+}
+    
+
+.propic{
+    
+    border:none;
+    margin-top: -15px!important;
+    margin-bottom: 8px!important;
+
+}
+.sbmtbtn {
+    background: #e01a22 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 15 px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.clrbtn {
+    background: #e01a22 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 15 px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: -20px; 
+}
+.loginbtn {
+    background: #e01a22 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 15 px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: -20px; 
+}
+.sbmtbtn:hover{
+    background: #fff none repeat scroll 0 0;
+    color: #e01a22;
+    outline: 1px solid #e01a22;
+}
+.clrbtn:hover{
+    background: #fff none repeat scroll 0 0;
+    color: #e01a22;
+    outline: 1px solid #e01a22;
+}
+.loginbtn:hover{
+    background: #fff none repeat scroll 0 0;
+    color: #e01a22;
+    outline: 1px solid #e01a22;
+}
+.loginfotext ul li{
+    font-size: 25px;
+    margin: 20px;
+    letter-spacing: 1px;
+}
+.loginfotext{
+    text-align: justify;
+    padding-top: 80px;
+}
+
+/*
+    Created on : 11-Nov-2020
+    Author     :Shivashagthy Dharsan
+*/
+
+.bottom {
+  padding-top:  1em;
+  position: relative;
+}
+
+.body1{
+  background-color:#fcba6f;
+  width:100%
+}
+.body2{
+  background-color:#6d6660;
+  height:40px;
+  width:100%
+}
+.body3{
+  background-color: #fff; 
+  width:100%
+}
+.body4{
+  background-color:#fcba6f;
+  width:100%
+}
+.body5{
+  background-color:#6d6660;
+  height:120px;
+  width:100%
+}
+.body6{
+    background-color:#6d6660;
+    width:100%
+}
+
+  /* ============================= footer ====================== */
+  footer {padding:30px 0 30px 0;font-style:normal;color:#696969;text-align:center }
+  footer a{color:#fff}
+  footer a:hover{color:#ccff}
+  footer p{color:#fff}
+  /* ============================= forms ============================= */
+  .contact { margin: 15px auto;}
+  #contactform {margin-top:-4px}
+  #contactform .wrapper{min-height:30px;padding-bottom: 30px ; width:auto;padding-right: 30px;}
+  #contactform .textarea_box{min-height:275px;width:100%;overflow:hidden;padding-bottom:6px}
+  #contactform {}
+  #contactform a{margin-left:10px;float:right;width:62px;font-style:normal;font-weight:bold;color:#fff;height:32px;line-height:32px;text-decoration:none;background-color:#5c4020;text-align:center}
+  #contactform a:hover{background:#080808}
+  #contactform .input {width:300px;height:18px;border:1px solid #e5e5e5;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
+  #contactform textarea {overflow:auto;width:600px;border:1px solid #e5e5e5;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
+  #newsletter{}
+  #newsletter .input{background:#fff;padding:6px 18px;width:184px;height:24px;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:inherit;color:#b4b4b4;margin:0}
+  #newsletter .input:focus{color:#696969}
+  #newsletter .wrapper{min-height:40px}
+  #newsletter a{float:right;width:90px;height:32px;background:#fff;line-height:32px;color:#000;font-weight:bold;text-align:center;font-style:normal;text-decoration:none}
+  #newsletter a:hover{background:#5c4020;color:#fff}
+
+
